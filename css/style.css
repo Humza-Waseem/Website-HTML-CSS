@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: url('/assets/green.jpg');
+    background: url('/assets/bg.jpg');
     background-repeat: no-repeat;
    
 background-size: cover;
@@ -10,7 +10,7 @@ background-attachment: scroll;
 
 }
 .left{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 5px 20px;
     display: inline-block;
     left: 20px;
@@ -20,30 +20,67 @@ background-attachment: scroll;
 
 
 .mid{
-    border: 2px solid rgb(83, 24, 138);
+    /* border: 2px solid hwb(182 7% 52% / 0.973); */
     display: block;
     width: 47%;
+    
+    /* background-color: hwb(180 4% 57% / 0.973); */
+    
     top: 4px;
     margin: -83px auto;
+    border-radius: 6%;
+}
+.navBar{
+    display: inline-block;
+   
+   
+}
+.navBar li{
+    display: inline-block;
+    margin: 5px 20px;
+   
+}
+.navBar a{
+    color: rgb(5, 2, 2);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:18px;
+
+
+}
+
+.navBar a:hover{
+    color: rgb(138, 137, 137);
+    cursor: pointer;
+
+}
+.navBar li a.active{
+    text-decoration: underline;
+    color: rgb(136, 134, 134);
+
 }
 .right{
     position: absolute;
-    top: 10px;
+    top: -5px;
     right: 20px;
     display: inline;
-   width: 300px;
-    border: 2px solid rgb(0, 0, 0);
+    width: 342px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin: -12px -4px;
    
   
 }
 .buttons{
     display: inline-block;
-    margin: 2px 40px;
+    margin: -20px 64px;
     
 }
 .buttons a:hover{
-    color: rgb(80, 0, 0);
+    color: rgb(15, 2, 2);
 /* background-color: rgb(139, 139, 139); */
+}
+.buttons a{
+    margin: 10px 10px;
 }
 .btnX{
     display: inline-block;
@@ -74,64 +111,59 @@ background-attachment: scroll;
 {
     display: inline-block;
     width: 40%;
-    position: absolute;
-    margin: 400px auto;
+    position: relative;
+    top: 514px;
+    left: -127px;
+    /* margin: 400px auto; */
     /* top: 400px;
     left: 900px; */
-    color: rgb(255, 27, 27);
+    /* color: rgb(255, 27, 27); */
+    border: 2px solid rgb(95, 73, 73);
+    border-radius: 10px;
+    width: auto;
+    background-color: black;
 
 
 }
 .midbody textarea::placeholder{
     
     color: orange;
-    font-style: italic;
+    
 
 }
-
-
-
-.navBar{
+.tb h5{
+    /* border: 2px solid black; */
     display: inline-block;
-}
-.navBar li{
-    display: inline-block;
-    margin: 5px 20px;
-   
-}
-.navBar a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size:18px;
-
-
-}
-
-.navBar a:hover{
-    color: rgb(138, 137, 137);
-    cursor: pointer;
-
-}
-.navBar li a.active{
-    text-decoration: underline;
-    color: rgb(136, 134, 134);
-
+    position: relative;
+    top: 350px;
+    left: 101px;
 }
 .left img{
     width:58%;
-  
     margin: 10px 5px;
     
 }
 .left .logo div{
-    color: rgb(150, 3, 3);
+ /* color: rgb(150, 3, 3); */
     text-shadow: navajowhite;
     font-weight: bold;
     left: 50px;
    top: 20px;
     font-size: 13px;
 }
+.connect h4{
+    display:  inline-block;
+    position: relative;
+    
+    text-align: center;
+    color: rgb(14, 2, 2);
+    font-weight: bold;
+    font-size: large; 
+    margin: 24px 87px;
+    /* border: 2px solid red; */
+    
+}
+
 
 
 
