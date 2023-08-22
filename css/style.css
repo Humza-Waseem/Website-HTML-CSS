@@ -3,25 +3,147 @@ body{
     padding: 0px;
     background: url('/assets/green.jpg');
     background-repeat: no-repeat;
+   
+background-size: cover;
+background-attachment: scroll;
+
 
 }
 .left{
     border: 2px solid red;
-
+    margin: 5px 20px;
     display: inline-block;
+    left: 20px;
+    width: 8%;
 
 }
+
 
 .mid{
     border: 2px solid rgb(83, 24, 138);
     display: block;
-    width: 33%;
-
-    margin: 0px auto;
+    width: 47%;
+    top: 4px;
+    margin: -83px auto;
 }
 .right{
-    border: 2px solid rgb(0, 0, 0);
-    display: inline-block;
-    
+    position: absolute;
     top: 10px;
+    right: 20px;
+    display: inline;
+   width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+   
+  
 }
+.buttons{
+    display: inline-block;
+    margin: 2px 40px;
+    
+}
+.buttons a:hover{
+    color: rgb(80, 0, 0);
+/* background-color: rgb(139, 139, 139); */
+}
+.btnX{
+    display: inline-block;
+    padding: 11px 4px;
+   
+    ;
+    
+    cursor: pointer
+    ;
+
+}
+.btnLinkedIn{
+    display: inline-block;
+}
+.btnGithub{
+    display: inline-block;
+}
+.buttons  a{
+  
+    width: 80px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 5px;
+    
+}
+.midbody
+{
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    margin: 400px auto;
+    /* top: 400px;
+    left: 900px; */
+    color: rgb(255, 27, 27);
+
+
+}
+.midbody textarea::placeholder{
+    
+    color: orange;
+    font-style: italic;
+
+}
+
+
+
+.navBar{
+    display: inline-block;
+}
+.navBar li{
+    display: inline-block;
+    margin: 5px 20px;
+   
+}
+.navBar a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:18px;
+
+
+}
+
+.navBar a:hover{
+    color: rgb(138, 137, 137);
+    cursor: pointer;
+
+}
+.navBar li a.active{
+    text-decoration: underline;
+    color: rgb(136, 134, 134);
+
+}
+.left img{
+    width:58%;
+  
+    margin: 10px 5px;
+    
+}
+.left .logo div{
+    color: rgb(150, 3, 3);
+    text-shadow: navajowhite;
+    font-weight: bold;
+    left: 50px;
+   top: 20px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
